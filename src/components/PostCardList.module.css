@@ -1,0 +1,17 @@
+.postCardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px;
+}
+.loadingImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.loadingImageContainer img {
+    width: 100px; 
+    height: 100px; 
+}

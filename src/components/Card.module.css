@@ -1,0 +1,67 @@
+
+.imagePage {
+  display: flex;
+
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.text{
+  width: 450px;
+}
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.container {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+  }
+  
+
+  .details-container {
+    padding: 10px;
+  }
+  
+  .name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .rating-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .rating {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .price {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
